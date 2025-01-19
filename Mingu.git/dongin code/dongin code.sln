@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dongin code", "dongin code\dongin code.csproj", "{BB718F7B-4206-4D7F-A1A0-1441D9E23CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB718F7B-4206-4D7F-A1A0-1441D9E23CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB718F7B-4206-4D7F-A1A0-1441D9E23CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB718F7B-4206-4D7F-A1A0-1441D9E23CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB718F7B-4206-4D7F-A1A0-1441D9E23CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
