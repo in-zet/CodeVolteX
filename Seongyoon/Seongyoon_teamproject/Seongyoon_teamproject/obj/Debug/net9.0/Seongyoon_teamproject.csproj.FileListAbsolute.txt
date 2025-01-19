@@ -1,0 +1,15 @@
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\bin\Debug\net9.0\Seongyoon_teamproject.exe
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\bin\Debug\net9.0\Seongyoon_teamproject.deps.json
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\bin\Debug\net9.0\Seongyoon_teamproject.runtimeconfig.json
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\bin\Debug\net9.0\Seongyoon_teamproject.dll
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\bin\Debug\net9.0\Seongyoon_teamproject.pdb
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.AssemblyInfoInputs.cache
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.AssemblyInfo.cs
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.csproj.CoreCompileInputs.cache
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.sourcelink.json
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.dll
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\refint\Seongyoon_teamproject.dll
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.pdb
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\Seongyoon_teamproject.genruntimeconfig.cache
+C:\Users\blbae\OneDrive\Desktop\Team project\CodeVolteX\Seongyoon\Seongyoon_teamproject\Seongyoon_teamproject\obj\Debug\net9.0\ref\Seongyoon_teamproject.dll
