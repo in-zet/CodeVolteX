@@ -1,0 +1,27 @@
+using Microsoft.VisualBasic;
+using System.Collections;
+using System.ComponentModel;
+
+class Program
+{
+    static void Main()
+    {
+        StreamReader sr = new(new BufferedStream(Console.OpenStandardInput()));
+        StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput()));
+
+        long[] ints = Array.ConvertAll(sr.ReadLine().Split(' '), long.Parse);
+
+        if (ints[0] > ints[1])
+        {
+            sw.WriteLine(ints[0] - ints[1]);
+        }
+        else
+        {
+            sw.WriteLine(ints[1] - ints[0]);
+        }
+
+        sr.Close();
+        sw.Close();
+        return;
+    }
+}

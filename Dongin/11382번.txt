@@ -1,0 +1,19 @@
+using Microsoft.VisualBasic;
+using System.Collections;
+using System.ComponentModel;
+
+class Program
+{
+    static void Main()
+    {
+        StreamReader sr = new(new BufferedStream(Console.OpenStandardInput()));
+        StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput()));
+
+        long[] ints = Array.ConvertAll(sr.ReadLine().Split(' '), long.Parse);
+        sw.WriteLine(ints[0] + ints[1] + ints[2]);
+
+        sr.Close();
+        sw.Close();
+        return;
+    }
+}

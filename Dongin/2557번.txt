@@ -1,0 +1,14 @@
+using Microsoft.VisualBasic;
+using System.Collections;
+using System.ComponentModel;
+
+class Program
+{
+    static void Main()
+    {
+        StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput()));
+        sw.WriteLine("Hello World!");
+        sw.Close();
+        return;
+    }
+}
