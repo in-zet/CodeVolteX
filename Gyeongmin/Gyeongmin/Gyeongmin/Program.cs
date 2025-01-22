@@ -4,15 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        string input = Console.ReadLine(); // 77 77 7777
-        
-        string[] numbers = input.Split(' '); // 77 77 7777
-        long a = long.Parse(numbers[0]);
-        long b = long.Parse(numbers[1]);
-        long c = long.Parse(numbers[2]); // 7731
+        string input = Console.ReadLine();
+        string[] numbers = input.Split(' ');
 
-        long sum = a + b + c;
-        
-        Console.WriteLine(sum);
+        long N = long.Parse(numbers[0]);
+        long M = long.Parse(numbers[1]);
+
+        long difference = Math.Abs(N - M);
+
+        Console.WriteLine(difference);
     }
 }
