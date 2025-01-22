@@ -1,17 +1,18 @@
 ﻿using System;
 
-namespace baekjoon
+class Program
 {
-    class 사칙연산
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string[] s = Console.ReadLine().Split();
-            Console.WriteLine(int.Parse(s[0]) + int.Parse(s[1]));
-            Console.WriteLine(int.Parse(s[0]) - int.Parse(s[1]));
-            Console.WriteLine(int.Parse(s[0]) * int.Parse(s[1]));
-            Console.WriteLine(int.Parse(s[0]) / int.Parse(s[1]));
-            Console.WriteLine(int.Parse(s[0]) % int.Parse(s[1]));
-        }
+        string input = Console.ReadLine(); // 77 77 7777
+        
+        string[] numbers = input.Split(' '); // 77 77 7777
+        long a = long.Parse(numbers[0]);
+        long b = long.Parse(numbers[1]);
+        long c = long.Parse(numbers[2]); // 7731
+
+        long sum = a + b + c;
+        
+        Console.WriteLine(sum);
     }
 }
