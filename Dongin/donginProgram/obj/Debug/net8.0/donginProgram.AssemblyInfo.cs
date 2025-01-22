@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("donginProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+411d24a5327f24a8dccb1b67ade19859fd2c1e05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ed75076b685a4383c5967399a776a58819c86fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("donginProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("donginProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
