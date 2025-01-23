@@ -6,13 +6,24 @@ class Program
 {
     static void Main()
     {
-        StreamReader sr = new(new BufferedStream(Console.OpenStandardInput()));
-        StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput()));
+        int a;
+        a = int.Parse(Console.ReadLine());
 
-        int[] ints = Array.ConvertAll(sr.ReadLine().Split(' '), int.Parse);
+        Console.WriteLine(Factorial(a));
+        List<int> aasd = new List<int>();
 
-        sr.Close();
-        sw.Close();
-        return;
+        aasd.Add(123);
+        aasd.Remove(123);
+
+
+    }
+
+    static int Factorial(int x)
+    {
+        if (x == 0)
+        {
+            return 1;
+        }
+        return x * Factorial(x - 1);
     }
 }
