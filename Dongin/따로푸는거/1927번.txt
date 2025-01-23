@@ -1,0 +1,131 @@
+using Microsoft.VisualBasic;
+using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Reflection;
+
+class Program
+{
+    static void Main()
+    {
+        StreamReader sr = new(new BufferedStream(Console.OpenStandardInput()));
+        StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput()));
+        MinHeap minHeap = new MinHeap();
+        List<int> outputBuffer = new List<int>();
+
+        int commandNum = int.Parse(sr.ReadLine());
+        int input;
+
+        for (int i = 0; i < commandNum; i++)
+        {
+            input = int.Parse(sr.ReadLine());
+            if (input == 0)
+            {
+                outputBuffer.Add(minHeap.ExtractMin());
+            }
+            else
+            {
+                minHeap.Insert(input);
+            }
+        }
+
+        foreach (int output in outputBuffer)
+        {
+            sw.WriteLine(output);
+        }
+        
+        sr.Close();
+        sw.Close();
+        return;
+    }
+}
+
+class MinHeap
+{
+    private List<int> heapArr = new List<int>();
+
+    private Func<int, int> left = (int x) => 2 * x + 1;
+    private Func<int, int> right = (int x) => 2 * x + 2;
+    private Func<int, int> parent = (int x) => (x - 1) / 2;
+
+    private int count = 0;
+
+    public int ExtractMin()
+    {
+        if (count == 0)
+        {
+            return 0;
+        }
+
+        int result = heapArr[0];
+        heapArr[0] = heapArr[count - 1];
+
+        int tLeft;
+        int tRight;
+        int tSmallest;
+        int tValue;
+        int tIndex = 0;
+
+        while (true)
+        {
+            tLeft = left(tIndex);
+            tRight = right(tIndex);
+            if (tLeft <= count - 1 && heapArr[tLeft] < heapArr[tIndex])
+            {
+                tSmallest = tLeft;
+            }
+            else
+            {
+                tSmallest = tIndex;
+            }
+
+            if (tRight <= count - 1 && heapArr[tRight] < heapArr[tSmallest])
+            {
+                tSmallest = tRight;
+            }
+
+            if (tSmallest != tIndex)
+            {
+                tValue = heapArr[tIndex];
+                heapArr[tIndex] = heapArr[tSmallest];
+                heapArr[tSmallest] = tValue;
+                tIndex = tSmallest;
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        heapArr.RemoveAt(count - 1);
+        count--;
+
+        return result;
+    }
+
+    public void Insert(int value)
+    {
+        count++;
+
+        int tValue;
+        int tParent;
+        int tIndex = count - 1;
+        heapArr.Add(value);
+        
+        while (true)
+        {
+            tParent = parent(tIndex);
+            if (tIndex != 0 && heapArr[tParent] > heapArr[tIndex])
+            {
+                tValue = heapArr[tParent];
+                heapArr[tParent] = heapArr[tIndex];
+                heapArr[tIndex] = tValue;
+                tIndex = tParent;
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+}
